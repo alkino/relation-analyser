@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond %{REQUEST_URI} ^/analyse/$ [NC]
+RewriteRule (.*)  http://api.openstreetmap.fr/analyse/cgi-bin/index.py [QSA,L,R=301]
