@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2013-08-14T11:02:02Z"/>
+
+  <node id="307196739" lat="45.9264901" lon="8.7979654" version="1" timestamp="2008-10-24T23:44:52Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307197046" lat="45.9276614" lon="8.7792003" version="1" timestamp="2008-10-24T23:45:09Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307198133" lat="45.9300044" lon="8.7760839" version="1" timestamp="2008-10-24T23:45:52Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200340" lat="45.9264637" lon="8.7983395" version="1" timestamp="2008-10-24T23:47:32Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200342" lat="45.9266717" lon="8.7988676" version="1" timestamp="2008-10-24T23:47:32Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200345" lat="45.9274285" lon="8.7993291" version="1" timestamp="2008-10-24T23:47:32Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200348" lat="45.9278518" lon="8.7995211" version="1" timestamp="2008-10-24T23:47:32Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200350" lat="45.9290033" lon="8.7991816" version="1" timestamp="2008-10-24T23:47:33Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200354" lat="45.9334956" lon="8.7973350" version="1" timestamp="2008-10-24T23:47:33Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200357" lat="45.9342057" lon="8.7968165" version="1" timestamp="2008-10-24T23:47:33Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200359" lat="45.9346269" lon="8.7958350" version="1" timestamp="2008-10-24T23:47:33Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200363" lat="45.9367130" lon="8.7873683" version="1" timestamp="2008-10-24T23:47:33Z" changeset="558435" uid="137" user="simone"/>
+  <node id="307200636" lat="45.9376338" lon="8.7793297" version="1" timestamp="2008-10-24T23:47:45Z" changeset="558435" uid="137" user="simone"/>
+  <way id="27986125" version="2" timestamp="2008-10-31T19:52:54Z" changeset="645755" uid="24143" user="Paolo Molaro">
+    <nd ref="307197046"/>
+    <nd ref="307198133"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="created_by" v="osm-helpers"/>
+    <tag k="name:left" v="Rancio Valcuvia"/>
+    <tag k="name:right" v="Ferrera di Varese"/>
+    <tag k="source" v="Based on ISTAT data - 2001 Italian Census"/>
+  </way>
+  <way id="27986192" version="2" timestamp="2008-10-31T19:54:16Z" changeset="645755" uid="24143" user="Paolo Molaro">
+    <nd ref="307200636"/>
+    <nd ref="307198133"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="created_by" v="osm-helpers"/>
+    <tag k="name:left" v="Ferrera di Varese"/>
+    <tag k="name:right" v="Cassano Valcuvia"/>
+    <tag k="source" v="Based on ISTAT data - 2001 Italian Census"/>
+  </way>
+  <way id="27986193" version="2" timestamp="2008-10-31T19:54:17Z" changeset="645755" uid="24143" user="Paolo Molaro">
+    <nd ref="307200636"/>
+    <nd ref="307200363"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="created_by" v="osm-helpers"/>
+    <tag k="name:left" v="Grantola"/>
+    <tag k="name:right" v="Ferrera di Varese"/>
+    <tag k="source" v="Based on ISTAT data - 2001 Italian Census"/>
+  </way>
+  <way id="156854773" version="1" timestamp="2012-03-25T20:08:31Z" changeset="11099397" uid="178186" user="mdk">
+    <nd ref="307196739"/>
+    <nd ref="307200340"/>
+    <nd ref="307200342"/>
+    <nd ref="307200345"/>
+    <nd ref="307200348"/>
+    <nd ref="307200350"/>
+    <nd ref="307200354"/>
+    <nd ref="307200357"/>
+    <nd ref="307200359"/>
+    <nd ref="307200363"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name:left" v="Ferrera di Varese"/>
+    <tag k="name:right" v="Cunardo"/>
+    <tag k="source" v="Based on ISTAT data - 2001 Italian Census"/>
+  </way>
+  <way id="156854780" version="1" timestamp="2012-03-25T20:08:32Z" changeset="11099397" uid="178186" user="mdk">
+    <nd ref="307196739"/>
+    <nd ref="307197046"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name:left" v="Masciago Primo"/>
+    <tag k="name:right" v="Ferrera di Varese"/>
+    <tag k="source" v="Based on ISTAT data - 2001 Italian Census"/>
+  </way>
+  <relation id="46523" version="5" timestamp="2012-06-08T18:57:20Z" changeset="11838130" uid="188477" user="lerks">
+    <member type="way" ref="156854780" role="outer"/>
+    <member type="way" ref="27986125" role="outer"/>
+    <member type="way" ref="27986192" role="outer"/>
+    <member type="way" ref="27986193" role="outer"/>
+    <member type="way" ref="156854773" role="outer"/>
+    <tag k="admin_level" v="8"/>
+    <tag k="boundary" v="administrative"/>
+    <tag k="name" v="Ferrera di Varese"/>
+    <tag k="ref:ISTAT" v="012069"/>
+    <tag k="ref:catasto" v="D551"/>
+    <tag k="type" v="boundary"/>
+    <tag k="wikipedia" v="it:Ferrera di Varese"/>
+  </relation>
+
+</osm>
