@@ -24,7 +24,7 @@
 import os, time, commands, OsmApi, sys, traceback, re
 import lib_translate
 
-work  = "../results/"
+work  = "/data/work/analyser2/"
 
 class analyser():
     
