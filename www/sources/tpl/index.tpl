@@ -5,7 +5,7 @@
   <title>~title~</title>
   <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
   <link rel="stylesheet" type="text/css" href="../www/sources/css/styles.css">
-  <script type="text/javascript" src="../www/ol/OpenLayers.js"></script>
+  <script type="text/javascript" src="../www/sources/js/OpenLayers.js"></script>
   <script type="text/javascript" src="../www/sources/js/OpenStreetMap.js"></script>
   <script type="text/javascript" src="../www/sources/js/DynPoi.js"></script>
   <script type="text/javascript" src="../www/sources/js/analyser.js"></script>
