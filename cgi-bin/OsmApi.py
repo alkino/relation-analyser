@@ -52,6 +52,7 @@
 __version__ = '0.2.17'
 
 import httplib, base64, xml.dom.minidom, time, sys, urllib
+from . import config
 
 class ApiError(Exception):
     	
@@ -73,7 +74,7 @@ class OsmApi:
         passwordfile = None,
         appid = "",
         created_by = "PythonOsmApi/"+__version__,
-        api = "api.openstreetmap.fr",
+        api = config.api_base_url,
         changesetauto = False,
         changesetautotags = {},
         changesetautosize = 500,

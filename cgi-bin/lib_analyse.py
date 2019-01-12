@@ -21,6 +21,7 @@
 ##                                                                       ##
 ###########################################################################
 
+from . import config
 import os, time, commands, OsmApi, sys, traceback, re
 import lib_translate
 
@@ -75,7 +76,7 @@ class analyser():
             self.error(Tr("err.WhileWriting"))
 
     def GetOsmFile(self):
-        s,o = commands.getstatusoutput("wget http://api.openstreetmap.fr/api/0.6/relation/%d/full --no-cache -O "%self._relid + os.path.join(work, "%d.osm"%self._relid))
+        s,o = commands.getstatusoutput("wget http://" + config.api_base_url + "/api/0.6/relation/%d/full --no-cache -O "%self._relid + os.path.join(work, "%d.osm"%self._relid))
     
     def error(self, texte):
         #text = texte
@@ -257,7 +258,7 @@ class analyser():
         Tr = self._tr.TranslateKey
         Text=[]
         
-        JosmLink = u"http://localhost:8111/import?url=http://api.openstreetmap.fr/api/0.6/relation/%d/full"%self._relid
+        JosmLink = u"http://localhost:8111/import?url=http://" + config.api_base_url + "/api/0.6/relation/%d/full"%self._relid
         Text.append(u"<div id='EditRel' >" + Tr('editrel')%u"<a class='black' href='%s' target='hiddenIframe'>JOSM</a>"%JosmLink)
         Text.append(u"</div>")
 
